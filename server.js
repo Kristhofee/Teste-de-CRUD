@@ -55,3 +55,39 @@ app.delete('/usuarios/:id', async (req, res) => {
 app.listen(3000)
 
 // esse é um CRUD: (CREATE, READ, UPDATE, DELETE)
+
+/*
+1️⃣ API (Interface de Programação de Aplicações)
+👉 É como um garçom em um restaurante.
+Ele pega seu pedido, leva para a cozinha (sistema) e traz a comida (resposta).
+📌 Ou seja, uma API permite que dois sistemas diferentes conversem entre si.
+
+
+2️⃣ API REST (API baseada em REST)
+👉 É um tipo de API que segue algumas regras específicas.
+Ela usa URLs para acessar recursos, como pedir um prato no cardápio.
+📌 Exemplo:
+
+
+GET /usuarios → Lista todos os usuários
+
+
+POST /usuarios → Cria um novo usuário
+
+
+3️⃣ API RESTful (API que segue todas as regras do REST corretamente)
+👉 Pense em um restaurante que segue todas as boas práticas de atendimento.
+Uma API RESTful é uma API REST bem feita, organizada e padronizada.
+
+
+📌 Resumindo:
+
+
+API → Qualquer interface que conecta sistemas.
+
+
+API REST → API que segue o estilo REST.
+
+
+API RESTful → API REST bem estruturada e seguindo todas as boas práticas. 
+*/
